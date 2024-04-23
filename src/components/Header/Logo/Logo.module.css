@@ -1,0 +1,41 @@
+.container{
+white-space: nowrap;
+display: flex;
+gap: 12px;
+justify-content: center;
+align-items: center;
+
+}
+.logo{
+margin: 0;
+height: 100px;
+width: 200px;
+    
+}
+svg{
+width: 20px;
+height: 20px;
+
+} 
+
+.social {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; 
+  background-color: var(--white); 
+  border: 4px solid var(--blue-fone);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease; 
+}
+
+.social:hover {
+  background-color:var(--blue-fone); 
+  transform: scale(1.1); 
+  color: var(--white);
+}
+.social:hover use{
+  fill: var(--white);
+
+}

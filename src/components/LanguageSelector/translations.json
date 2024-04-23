@@ -1,0 +1,15 @@
+
+{
+  "english": {
+    "welcomeMessage": "Welcome to our website!",
+    "logoText": "CodeCreators"
+  },
+  "ukrainian": {
+    "welcomeMessage": "Ласкаво просимо на наш веб-сайт!",
+    "logoText": "Створювачі Коду"
+  },
+  "russian": {
+    "welcomeMessage": "Добро пожаловать на наш веб-сайт!",
+    "logoText": "Создатели Кода"
+  }
+}

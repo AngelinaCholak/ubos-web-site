@@ -1,0 +1,16 @@
+
+.buttonLeng {
+  background-color: transparent; 
+  border: none; 
+  padding: 5px 10px; 
+  font-size: 26px; 
+  cursor: pointer; 
+  color: var( --text-black-color);
+  outline: none; 
+  font-weight: bold;
+}
+
+.active {
+   color: var( --blue-fone); 
+
+}
