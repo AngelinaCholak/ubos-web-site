@@ -3,36 +3,42 @@ import React from "react";
 // import translations from "../../../components/LanguageSelector/translations.json";
 import css from "./Logo.module.css";
 import sprite from "../../../assets/sprite.svg";
+import { useNavigate } from "react-router-dom";
+
 
 const Logo = () => {
-  const handleTelegramClick = () => {
-    window.open("https://telegram.org", "_blank");
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/');
   };
-  const handleWhatsAppClick = () => {
-    window.open("https://web.whatsapp.com/", "_blank");
-  };
+  // const handleTelegramClick = () => {
+  //   window.open("https://telegram.org", "_blank");
+  // };
+  // const handleWhatsAppClick = () => {
+  //   window.open("https://web.whatsapp.com/", "_blank");
+  // };
 
   //   const { selectedLanguage } = useContext(LanguageContext);
   return (
     <div className={css.container}>
       {/* <h1 className={css.logo}>{translations[selectedLanguage].logoText}</h1> */}
-      <div>
+      <div onClick={handleClick}>
         <svg className={css.logo}>
-          <use href={sprite + "#logo"}></use>
+          <use href={sprite + '#logo'}></use>
         </svg>
       </div>
 
-      <div className={css.social}>
+      {/* <div className={css.social}>
         <svg onClick={handleTelegramClick}>
-          <use href={sprite + "#telegram"}></use>
+          <use href={sprite + '#telegram'}></use>
         </svg>
       </div>
 
       <div className={css.social}>
         <svg onClick={handleWhatsAppClick}>
-          <use href={sprite + "#whatsapp"}></use>
+          <use href={sprite + '#whatsapp'}></use>
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 };

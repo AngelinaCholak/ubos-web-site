@@ -2,14 +2,26 @@
 {
   "english": {
     "welcomeMessage": "Welcome to our website!",
-    "logoText": "CodeCreators"
+    "logoText": "CodeCreators",
+    "layoutHome": "Home",
+    "layoutPortfolio": "Portfolio",
+    "layoutAboutUs": "About Us",
+    "layoutContacts": "Contacts"
   },
   "ukrainian": {
     "welcomeMessage": "Ласкаво просимо на наш веб-сайт!",
-    "logoText": "Створювачі Коду"
+    "logoText": "Створювачі Коду",
+    "layoutHome": "Головна",
+    "layoutPortfolio": "Портфоліо",
+    "layoutAboutUs": "Про Нас",
+    "layoutContacts": "Контакти"
   },
   "russian": {
     "welcomeMessage": "Добро пожаловать на наш веб-сайт!",
-    "logoText": "Создатели Кода"
+    "logoText": "Создатели Кода",
+    "layoutHome": "Главная",
+    "layoutPortfolio": "Портфолио",
+    "layoutAboutUs": "О Нас",
+    "layoutContacts": "Контакты"
   }
 }
