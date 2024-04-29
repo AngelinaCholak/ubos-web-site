@@ -11,59 +11,62 @@ const Header = () => {
     const { selectedLanguage } = useContext(LanguageContext);
   return (
     <>
-      <div className={css.container}>
-        <Logo />
-        <div className={css.containerRight}>
-          <LanguageSelector />
-          <div className={css.navContainer}>
-            <nav>
-              <ul className={css.listMenu}>
-                <li>
-                  <NavLink
-                    className={({ isActive }) =>
-                      isActive ? css.active : css.headerLink
-                    }
-                    to="/"
-                  >
-                    {translations[selectedLanguage].layoutHome}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className={({ isActive }) =>
-                      isActive ? css.active : css.headerLink
-                    }
-                    to="portfolio"
-                  >
-                    {translations[selectedLanguage].layoutPortfolio}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className={({ isActive }) =>
-                      isActive ? css.active : css.headerLink
-                    }
-                    to="aboutus"
-                  >
-                    {translations[selectedLanguage].layoutAboutUs}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className={({ isActive }) =>
-                      isActive ? css.active : css.headerLink
-                    }
-                    to="contacts"
-                  >
-                    {translations[selectedLanguage].layoutContacts}
-                  </NavLink>
-                </li>
-              </ul>
-            </nav>
+      <header className={css.container}>
+        <div className={css.headerContainer}>
+          <Logo />
+          <div className={css.containerRight}>
+            <LanguageSelector />
+            <div className={css.navContainer}>
+              <nav>
+                <ul className={css.listMenu}>
+                  <li>
+                    <NavLink
+                      className={({ isActive }) =>
+                        isActive ? css.active : css.headerLink
+                      }
+                      to="/"
+                    >
+                      {translations[selectedLanguage].layoutHome}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className={({ isActive }) =>
+                        isActive ? css.active : css.headerLink
+                      }
+                      to="portfolio"
+                    >
+                      {translations[selectedLanguage].layoutPortfolio}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className={({ isActive }) =>
+                        isActive ? css.active : css.headerLink
+                      }
+                      to="aboutus"
+                    >
+                      {translations[selectedLanguage].layoutAboutUs}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className={({ isActive }) =>
+                        isActive ? css.active : css.headerLink
+                      }
+                      to="contacts"
+                    >
+                      {translations[selectedLanguage].layoutContacts}
+                    </NavLink>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
-      </div>
-      <div className={css.header}></div>
+
+        <div className={css.header}></div>
+      </header>
     </>
   );
 };

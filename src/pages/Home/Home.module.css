@@ -1,0 +1,70 @@
+.container {
+  /* background-image: 
+   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../../assets/img/fone3.jpg); */
+  /* background-size: cover; 
+  background-repeat: no-repeat;  */
+  
+  position: relative;
+  padding: 0 7vw;
+  scroll-behavior: smooth;
+
+
+}
+
+.image {
+  width: calc(var(--indedx) * 36); 
+  position: absolute;
+  left: 37vw;
+  top: 8vh;
+}
+
+.containerHome {
+  height: 70vh;
+}
+
+.titleHom {
+  font-size: calc(var(--indedx) * 4);
+  position: absolute;
+  width: min-content;
+  top: 40vh;
+  line-height: 0.9;
+  margin: 0;
+  color: var(--text-white-color);
+}
+
+.gallery {
+  display: flex;
+  padding: calc(var(--indedx) * 5) 0;
+}
+
+.gallery > * {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  color: var(--text-white-color);
+}
+
+.galleryItem {
+  max-width: calc(var(--indedx) * 20);
+  margin-bottom: var(--gallery-gap);
+  max-height: 180vh;
+  border-radius: 8px;
+}
+
+.galleryLeft {
+  margin-top: calc(var(--gallery-gap) * 1.753);
+}
+
+.galleryRight .galleryItem {
+  margin: 0;
+  margin-top: var(--gallery-gap);
+}
+
+.textBlok {
+  color: var(--text-white-color);
+  position: relative;
+
+}

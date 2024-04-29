@@ -11,34 +11,16 @@ const Logo = () => {
   const handleClick = () => {
     navigate('/');
   };
-  // const handleTelegramClick = () => {
-  //   window.open("https://telegram.org", "_blank");
-  // };
-  // const handleWhatsAppClick = () => {
-  //   window.open("https://web.whatsapp.com/", "_blank");
-  // };
 
   //   const { selectedLanguage } = useContext(LanguageContext);
   return (
-    <div className={css.container}>
+    <div className={css.container} onClick={handleClick}>
       {/* <h1 className={css.logo}>{translations[selectedLanguage].logoText}</h1> */}
-      <div onClick={handleClick}>
+      
         <svg className={css.logo}>
-          <use href={sprite + '#logo'}></use>
+          <use href={sprite + '#logo1'}></use>
         </svg>
-      </div>
-
-      {/* <div className={css.social}>
-        <svg onClick={handleTelegramClick}>
-          <use href={sprite + '#telegram'}></use>
-        </svg>
-      </div>
-
-      <div className={css.social}>
-        <svg onClick={handleWhatsAppClick}>
-          <use href={sprite + '#whatsapp'}></use>
-        </svg>
-      </div> */}
+     
     </div>
   );
 };

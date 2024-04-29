@@ -1,13 +1,51 @@
-.container {
-  background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(255, 255, 255, 0.7)), url(../../assets/img/background-heder2.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
+/* .container {
+
   padding: 16px 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+} */
+/* .container {
+  padding: 16px 100px;
+
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  max-width: 1800px; 
+  margin: 0 auto; 
+} */
+.container{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+    
+
 }
+.headerContainer {
+   /* padding: 16px 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  max-width: 1800px; 
+  margin: 0 auto;  */
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 100px;
+
+}
+
+
 
 .containerRight {
   display: flex;
@@ -19,11 +57,6 @@
   padding-top: 40px;
 }
 
-.header {
-  padding: 0;
-  position: relative;
-  width: 100%;
-}
 
 .header::after {
   content: "";
@@ -31,8 +64,9 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 3px;
-  background: linear-gradient(270deg, #fff 0%, #eee 49.98%, #fff 99.88%);
+  height: 2px;
+  background: linear-gradient(270deg, #ffffff5b 0%, #2d85c4cc 49.98%, #ffffff50 99.88%);
+
 }
 
 .listMenu {
@@ -40,6 +74,7 @@
   gap: 40px;
   list-style: none;
   margin: 0;
+
 }
 
 .headerLink {
@@ -47,18 +82,24 @@
   letter-spacing: 2px;
   font-size: 20px;
   font-weight: bold;
-  color: var(--text-black-color);
+  color: var(--text-white-color); /* Колір тексту */
   text-decoration: none;
   white-space: nowrap;
+
 }
+
 
 .active {
   font-family: 'Helvetica Neue';
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 20px;
-  color: var(--blue-fone);
+   color: #2d85c4; 
+  /* text-shadow: -1px -1px 0 #f3e9b5,  
+               1px -1px 0 #f3e9b5,
+              -1px  1px 0 #f3e9b5,
+               1px  1px 0 #f3e9b5;  */
   text-decoration: none;
   white-space: nowrap;
-  border-bottom: 2px solid #3C3C43;
+  /* border-bottom: 2px solid #2d85c4; */
 }

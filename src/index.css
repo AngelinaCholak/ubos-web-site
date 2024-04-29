@@ -1,27 +1,54 @@
 html,
 body {
-  height: 100%;
+
+  /* background-image: url(./assets/img/gray-background.png);
+  background-repeat: no-repeat; 
+  background-size: cover;  */
+  background: linear-gradient(to bottom, #1e1e1e 0%, #333333 100%);
   overflow-x: hidden;
+  margin: 0;
+  
  
 }
-h1{
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 106%;
+.content, .hero, .main-header, .galerry > *{
+  will-change: transform;
+
 }
+
+
+h1, h2, h3, h4, h5 {
+
+  font-family: var(--my-font-family);
+  
+}
+ /* h2{
+   font-family: 'Qwigley', cursive;
+       font-size: calc(var(--indedx)* 2);
+ } */
 
 #root {
   
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100%;
   margin: 0 auto 0 auto;
+  box-sizing: border-box; */
+  width: 100%;
+    margin: 0 auto 0 auto;
+    max-width: 1800px;
+
+
+ 
+   
 }
 :root {
-  --text-black-color: с; 
-  --blue-fone: #82A5CE;
+  --indedx: calc(1vw + 1vh);
+  --my-font-family: 'Helvetica Neue', Arial, sans-serif;
+  --text-white-color: #f4efec; 
+  --color-fone: #cdc6c3;
   --white: #ffffff;
+  --gallery-gap: calc(var(--indedx) * 10);
 
 }
 

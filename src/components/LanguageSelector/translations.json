@@ -6,7 +6,8 @@
     "layoutHome": "Home",
     "layoutPortfolio": "Portfolio",
     "layoutAboutUs": "About Us",
-    "layoutContacts": "Contacts"
+    "layoutContacts": "Contacts",
+    "alwaysAroundMessage": "Always around for your success."
   },
   "ukrainian": {
     "welcomeMessage": "Ласкаво просимо на наш веб-сайт!",
@@ -14,7 +15,8 @@
     "layoutHome": "Головна",
     "layoutPortfolio": "Портфоліо",
     "layoutAboutUs": "Про Нас",
-    "layoutContacts": "Контакти"
+    "layoutContacts": "Контакти",
+    "alwaysAroundMessage": "Завжди поруч для вашого успіху."
   },
   "russian": {
     "welcomeMessage": "Добро пожаловать на наш веб-сайт!",
@@ -22,6 +24,7 @@
     "layoutHome": "Главная",
     "layoutPortfolio": "Портфолио",
     "layoutAboutUs": "О Нас",
-    "layoutContacts": "Контакты"
+    "layoutContacts": "Контакты",
+    "alwaysAroundMessage": "Всегда рядом для вашего успеха."
   }
 }
