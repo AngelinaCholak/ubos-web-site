@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/ubos-web-site/static/css/main.59dcb2f1.css",
-    "main.js": "/ubos-web-site/static/js/main.2d092972.js",
-    "static/media/background-heder2.jpg": "/ubos-web-site/static/media/background-heder2.297463d2ac0722c3376b.jpg",
-    "static/media/sprite.svg": "/ubos-web-site/static/media/sprite.d953eff8c7691469c77008be0d120add.svg",
+    "main.css": "/ubos-web-site/static/css/main.f0d158c6.css",
+    "main.js": "/ubos-web-site/static/js/main.fa83e486.js",
+    "static/media/mainLeft.png": "/ubos-web-site/static/media/mainLeft.6570b024d144bf3741e0.png",
+    "static/media/mainRight.png": "/ubos-web-site/static/media/mainRight.d695b2b5d1577898818a.png",
+    "static/media/hero2.png": "/ubos-web-site/static/media/hero2.95b2f40e9a9eb96c4551.png",
+    "static/media/sprite.svg": "/ubos-web-site/static/media/sprite.5d75186572211782d0a81915c7ef6382.svg",
     "index.html": "/ubos-web-site/index.html",
-    "main.59dcb2f1.css.map": "/ubos-web-site/static/css/main.59dcb2f1.css.map",
-    "main.2d092972.js.map": "/ubos-web-site/static/js/main.2d092972.js.map"
+    "main.f0d158c6.css.map": "/ubos-web-site/static/css/main.f0d158c6.css.map",
+    "main.fa83e486.js.map": "/ubos-web-site/static/js/main.fa83e486.js.map"
   },
   "entrypoints": [
-    "static/css/main.59dcb2f1.css",
-    "static/js/main.2d092972.js"
+    "static/css/main.f0d158c6.css",
+    "static/js/main.fa83e486.js"
   ]
 }
