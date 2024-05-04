@@ -1,0 +1,102 @@
+.container {
+    padding: 0 7vw;
+
+
+}
+.title{
+  font-size: calc(var(--indedx)* 4);
+  line-height: 0.9;
+  color: var(--text-white-color);
+  text-align: center;
+  margin-bottom: 110px;
+
+}
+
+.specialtyBlok {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+
+}
+.blok {
+  width: calc(33.33% - 1%);
+  border-radius: 8px;
+  padding: calc(var(--indedx)* 2) 0;
+
+}
+
+
+.titleBlok{
+  color: var(--text-blue-color);
+}
+
+
+.blok:hover .specialtyLink{
+  /* color: transparent;
+  background: linear-gradient(90deg, #ffffff5b, #ffffff50); 
+  background-clip: text;  */
+  color: var(--text-white-color);
+}
+
+.contentBlok{
+  position: relative;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px ;
+  cursor: pointer;
+  border-top: 1px solid var(--text-white-color); 
+  border-bottom: 1px solid var(--text-white-color); 
+
+}
+.contentBlok::after, .contentBlok::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px; /* Фіксована висота полоски */
+  background: linear-gradient(90deg, #ffffff5b, #2d85c4cc, #ffffff50); /* Початковий колір бордера */
+  background-size: 200% 100%; /* Дві позиції градієнту */
+  background-position: 0 0; /* Початкова позиція градієнту */
+  transition: width 0.5s, background-position 0.5s; /* Плавний перехід ширини і позиції градієнту */
+}
+.contentBlok::after{
+  top: -1.5px;
+}
+.contentBlok::before {
+bottom: -1.5px;
+}
+.contentBlok:hover::after, .contentBlok:hover::before{
+  width: 100%; /* Збільшення ширини до 100% при наведенні */
+  background-position: 100% 0; /* Кінцева позиція градієнту (правий край) */
+
+}
+
+.arrow {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+  stroke: var(--disabled);
+ 
+
+}
+
+.contentBlok:hover .arrow{
+  opacity: 1;
+}
+
+.specialtyLink {
+    font-family: var(--my-font-family);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block; 
+    padding-bottom: 40px;
+    transition: all 0.6s ease-in-out;
+    color: var(--disabled);
+}
+

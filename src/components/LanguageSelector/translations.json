@@ -7,8 +7,16 @@
     "layoutPortfolio": "Portfolio",
     "layoutAboutUs": "About Us",
     "layoutContacts": "Contacts",
-    "alwaysAroundMessage": "Always around for your success."
+    "alwaysAroundMessage": "Always around for your success.",
+    "OurSpecialty": "Our specialization",
+    "InternetShops": "E-commerce",
+    "CorporativeWebsite": "Corporate Websites",
+    "LandingPage": "Landing page",
+    "TemplateWebsite": "Template website",
+    "TemplateECommerce": "Template E-commerce",
+    "MobileApplications":"Mobile applications"
   },
+
   "ukrainian": {
     "welcomeMessage": "Ласкаво просимо на наш веб-сайт!",
     "logoText": "Створювачі Коду",
@@ -16,7 +24,14 @@
     "layoutPortfolio": "Портфоліо",
     "layoutAboutUs": "Про Нас",
     "layoutContacts": "Контакти",
-    "alwaysAroundMessage": "Завжди поруч для вашого успіху."
+    "alwaysAroundMessage": "Завжди поруч для вашого успіху.",
+    "OurSpecialty": "Наша спеціалізація",
+    "InternetShops": "Інтернет Магазини",
+    "CorporativeWebsite": "Корпоративні сайти",
+    "LandingPage": "Посадкова сторінка",
+    "TemplateWebsite": "Шаблонний корпоративний сайт",
+    "TemplateECommerce": "Шаблонний інтернет-магазин",
+    "MobileApplications": "Мобільні додатки"
   },
   "russian": {
     "welcomeMessage": "Добро пожаловать на наш веб-сайт!",
@@ -25,6 +40,13 @@
     "layoutPortfolio": "Портфолио",
     "layoutAboutUs": "О Нас",
     "layoutContacts": "Контакты",
-    "alwaysAroundMessage": "Всегда рядом для вашего успеха."
+    "alwaysAroundMessage": "Всегда рядом для вашего успеха.",
+    "OurSpecialty": "Наша специализация",
+    "InternetShops": "Интернет Магазины",
+    "CorporativeWebsite": "Корпоративные сайты",
+    "LandingPage": "Целевая страница",
+    "TemplateWebsite": "Шаблонный корпоративный сайт",
+    "TemplateECommerce": "Шаблонный интернет-магазин",
+    "MobileApplications": "Мобильные приложения"
   }
 }

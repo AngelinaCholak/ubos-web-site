@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat; 
   background-size: cover;  */
   background: linear-gradient(to bottom, #1e1e1e 0%, #333333 100%);
-  overflow-x: hidden;
+
   margin: 0;
   
  
@@ -28,15 +28,10 @@ h1, h2, h3, h4, h5 {
 
 #root {
   
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100%;
-  margin: 0 auto 0 auto;
-  box-sizing: border-box; */
   width: 100%;
-    margin: 0 auto 0 auto;
-    max-width: 1800px;
+  margin: 0 auto 0 auto;
+  max-width: 1800px;
+  overflow-x: hidden;
 
 
  
@@ -46,9 +41,11 @@ h1, h2, h3, h4, h5 {
   --indedx: calc(1vw + 1vh);
   --my-font-family: 'Helvetica Neue', Arial, sans-serif;
   --text-white-color: #f4efec; 
+  --text-blue-color:#2d85c4;
   --color-fone: #cdc6c3;
   --white: #ffffff;
-  --gallery-gap: calc(var(--indedx) * 10);
+  --gallery-gap: calc(var(--indedx) * 8);
+  --disabled: #ffffff84;
 
 }
 

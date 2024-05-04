@@ -68,6 +68,8 @@ xmlns="http://www.w3.org/2000/svg">
 </symbol>
 
 
+<symbol  id="arrow" viewBox="0 0 64 64"  fill="none" ><polyline points="48 28 48 16 36 16"/><line x1="48" y1="16" x2="16" y2="48"/>
+</symbol>
 
 
 </defs>

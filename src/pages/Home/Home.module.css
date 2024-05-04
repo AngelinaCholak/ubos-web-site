@@ -35,7 +35,8 @@
 
 .gallery {
   display: flex;
-  padding: calc(var(--indedx) * 5) 0;
+  padding: calc(var(--indedx) * 7) 0;
+  padding-bottom: 0%;
 }
 
 .gallery > * {

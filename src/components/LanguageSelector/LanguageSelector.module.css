@@ -4,12 +4,22 @@
   border: none; 
   font-size: 16px; 
   cursor: pointer; 
-  color: var(  --text-white-color);
+  color: var(--disabled) ;
   outline: none; 
   font-weight: bold;
 }
+.buttonLeng:hover{
+  /* color: transparent;
+  background: linear-gradient(90deg, #ffffff5b, #2d85c4cc, #ffffff50); 
+  background-clip: text;  */
+  color: var(--text-white-color);
+
+}
 
 .active {
-   color: var( --color-fone); 
+  /* color: transparent;
+  background: linear-gradient(90deg, #ffffff5b, #2d85c4cc, #ffffff50); 
+  background-clip: text;  */
+   color: var(--text-white-color);
 
 }
