@@ -1,13 +1,13 @@
-import React from 'react'
+// import React from 'react'
 
-const Button = () => {
-  return (
-    <div>
-      <div className={css.buttonSend}>
-        <span>{translationsInput[selectedLanguage].buttonForm}</span>
-      </div>
-    </div>
-  );
-}
+// const Button = () => {
+//   return (
+//     <div>
+//       <div className={css.buttonSend}>
+//         <span>{translationsInput[selectedLanguage].buttonForm}</span>
+//       </div>
+//     </div>
+//   );
+// }
 
-export default Button
+// export default Button
