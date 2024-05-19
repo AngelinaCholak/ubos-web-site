@@ -1,0 +1,46 @@
+
+.buttonSend{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color:black;
+    padding: 3px;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 100%;
+   
+
+}
+.buttonSend::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background:linear-gradient(115deg, #09df3e, #ffd016, #60239c, #0685b8, #44ce7b );
+ 
+    background-size: 50% 100%;
+    border-radius: inherit;
+}
+.buttonSend:hover::before{
+    animation: animate .75s
+    linear infinite;
+}
+span {
+    position: relative;
+    z-index: 2;
+    display: block;
+    background-color:black;
+    padding: 13px 20px;
+    border-radius: 3px;
+    color: var(--text-white-color);
+    text-align: center;
+    font-family: var(--my-font-family);
+    letter-spacing: 2px;
+}
+@keyframes animate{
+    to{
+        transform: translateX(-50%);
+    }
+} 

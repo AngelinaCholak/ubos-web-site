@@ -8,6 +8,7 @@
   position: relative;
   padding: 0 7vw;
   scroll-behavior: smooth;
+  z-index: 100;
 
 
 }
@@ -21,16 +22,21 @@
 
 .containerHome {
   height: 70vh;
+  margin-bottom: 200px;
 }
+.titleButtonBlok{
+  position: absolute;
+  top: 35vh;
+}
+
 
 .titleHom {
   font-size: calc(var(--indedx) * 4);
-  position: absolute;
   width: min-content;
-  top: 40vh;
   line-height: 0.9;
   margin: 0;
   color: var(--text-white-color);
+  margin-bottom: 70px;
 }
 
 .gallery {
@@ -61,7 +67,7 @@
 
 .galleryRight .galleryItem {
   margin: 0;
-  margin-top: var(--gallery-gap);
+
 }
 
 .textBlok {

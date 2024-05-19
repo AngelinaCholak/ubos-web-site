@@ -8,6 +8,9 @@ import translations from '../../../src/components/LanguageSelector/translations.
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import OurSpecialty from './ OurSpecialty/OurSpecialty';
+import ButtonDiscuss from './ButtonDiscuss/ButtonDiscuss';
+import AnimationShow from './AnimationShow/AnimationShow';
+import Awards from './Awards/Awards';
 
 const Home = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -120,42 +123,48 @@ const Home = () => {
       <section className={css.container}>
         <div className={css.containerHome}>
           <img className={css.image} ref={imageRef} src={image} alt={image} />
-          <h1 className={css.titleHom} ref={titleHomRef}>
-            {translations[selectedLanguage].alwaysAroundMessage}
-          </h1>
+          <div className={css.titleButtonBlok}>
+            <h1 className={css.titleHom} ref={titleHomRef}>
+              {translations[selectedLanguage].alwaysAroundMessage}
+            </h1>
+            <ButtonDiscuss />
+          </div>
         </div>
         <div className={css.portfolio}>
           <div className={css.containerPortfolio}>
             <div className={css.gallery}>
-              <div className={css.galleryLeft} ref={galleryLeftRef}>
-                <img
-                  className={`${css.galleryItem} galleryItem`}
-                  src={mainLeft}
-                  alt={mainLeft}
-                />
-                <img
-                  className={`${css.galleryItem} galleryItem`}
-                  src={mainRight}
-                  alt={mainRight}
-                />
+              <div className={css.galleryLeftBlok}>
+                <div className={css.galleryLeft} ref={galleryLeftRef}>
+                  <img
+                    className={`${css.galleryItem} galleryItem`}
+                    src={mainLeft}
+                    alt={mainLeft}
+                  />
+                  <img
+                    className={`${css.galleryItem} galleryItem`}
+                    src={mainRight}
+                    alt={mainRight}
+                  />
 
-                <div
-                  className={`${css.textBlok} ${css.galleryItem} galleryItem`}
-                >
-                  <h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima ratione velit accusamus animi, natus molestiae labore
-                    perspiciatis cum esse a deleniti quasi dolorem repellendus
-                    quaerat nemo enim harum facere vero.
-                  </h2>
+                  <div
+                    className={`${css.textBlok} ${css.galleryItem} galleryItem`}
+                  >
+                    <h2>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima ratione velit accusamus animi, natus molestiae
+                      labore perspiciatis cum esse a deleniti quasi dolorem
+                      repellendus quaerat nemo enim harum facere vero.
+                    </h2>
+                  </div>
+                  <img
+                    className={`${css.galleryItem} galleryItem`}
+                    ref={galleryItem}
+                    src={mainLeft}
+                    alt={mainLeft}
+                  />
                 </div>
-                <img
-                  className={`${css.galleryItem} galleryItem`}
-                  ref={galleryItem}
-                  src={mainLeft}
-                  alt={mainLeft}
-                />
               </div>
+
               <div className={css.galleryRight} ref={galleryRightRef}>
                 <div
                   className={`${css.textBlok} ${css.galleryItem} galleryItem`}
@@ -187,6 +196,8 @@ const Home = () => {
           </div>
         </div>
         <OurSpecialty />
+        <AnimationShow />
+        <Awards/>
       </section>
     </>
   );

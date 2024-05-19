@@ -4,9 +4,10 @@
     width: 100%;
     height: auto;
     z-index: 1000;
-    
+ 
 
 }
+
 
 .headerContainer {
 
@@ -36,7 +37,8 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, #ffffff5b 0%, #2d85c4cc 49.98%, #ffffff50 99.88%);
+  /* background: linear-gradient(270deg, #ffffff5b 0%, #2d85c4cc 49.98%, #ffffff50 99.88%); */
+  background: linear-gradient(270deg, rgba(168, 239, 255, 0.1) 0%, rgba(168, 239, 255, 1) 49.98%, rgba(168, 239, 255, 0.1) 99.88%);
 
 }
 

@@ -1,0 +1,32 @@
+{
+  "english": {
+    "titleAwards": "Awards",
+    "place": "place",
+    "awards": "Our awards",
+    "approach": "Our approach",
+    "approach1": "We don't just 'make sites', we bring customers into the business.",
+    "approach2": "We take responsibility and give results",
+    "approach3": "We respect the deadlines, budget and level of quality of the project",
+    "approach4": "We find the best solution based on business objectives and within budget"
+  },
+  "ukrainian": {
+    "titleAwards": "Достижения",
+    "place": "место",
+    "awards": "Наши награды",
+    "approach": "Наш подход",
+    "approach1": "Мы не просто «делаем сайты», а приводим клиентов в бизнес",
+    "approach2": "Берем ответственность и даём результат",
+    "approach3": "Соблюдаем сроки, бюджет и уровень качества проекта",
+    "approach4": "Находим лучшее решение, исходя из целей бизнеса и в рамках бюджета"
+  },
+  "russian": {
+    "titleAwards": "Досягнення",
+    "place": "місце",
+    "awards": "Наші нагороди",
+    "approach": "Наш підхід",
+    "approach1": "Ми не просто «робимо сайти», а приводимо клієнтів у бізнес",
+    "approach2": "Беремо відповідальність та даємо результат",
+    "approach3": "Дотримуємося термінів, бюджету та рівня якості проекту",
+    "approach4": "Знаходимо найкраще рішення, виходячи з цілей бізнесу та в рамках бюджету"
+  }
+}

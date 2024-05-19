@@ -10,6 +10,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 
 
 
+
 const OurSpecialty = () => {
   const { selectedLanguage } = useContext(LanguageContext);
   const ourSpecialtyRef = useRef(null);
@@ -83,7 +84,10 @@ const menuItems = [
           <div key={index} className={`${css.blok} blok`}>
             <div className={css.contentBlok}>
               <div>
-                <h2 className={css.titleBlok}>{index + 1}/</h2>
+                <h2 className={css.titleBlok}>
+                  {'0' + (index+1).toString()}
+                </h2>
+
                 <nav>
                   <NavLink
                     className={({ isActive }) =>

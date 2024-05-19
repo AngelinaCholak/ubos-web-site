@@ -1,5 +1,8 @@
 .container{
-      padding: 16px 100px;
+padding: 16px 100px;
+z-index: 100;
+position: relative;
+
 }
 svg{
 width: 20px;

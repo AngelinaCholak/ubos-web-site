@@ -1,0 +1,34 @@
+.titleAwards{
+  font-size: calc(var(--indedx)* 4);
+  line-height: 0.9;
+  color: var(--text-white-color);
+  text-align: center;
+  margin-bottom: 110px;
+
+}
+.place{
+    width: calc(20% - 90px);
+    /* margin: 0 45px; */
+    display: flex;
+      flex-direction: column; 
+    text-align: center;
+        width: 160px;
+    
+  
+}
+.placeSvg{
+width: 160px;
+height: 150px;
+
+}
+.number {
+  transform: translate(34%, 30%);
+
+
+}
+.placeText{
+  color: var(--text-white-color);
+  margin: 0;
+  letter-spacing: 1px;
+  
+}

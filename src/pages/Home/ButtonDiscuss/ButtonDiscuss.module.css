@@ -1,0 +1,227 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modalContent {
+    background-color: rgba(17, 17, 17, 0.643);
+    width: 660px;
+    max-width: calc(100% - 30px);
+    padding: 70px;
+}
+
+.blokTitle {
+    text-align: center;
+    margin-bottom: 35px;
+    color: var(--text-white-color);
+}
+
+.formSuccess {
+    margin-bottom: 50px;
+}
+
+.validationField {
+    margin-bottom: 20px;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    padding: 0;
+    color: var(--text-white-color);
+    font-size: 20px;
+    background-color: transparent;
+    cursor: initial;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.emphasis {
+    position: relative;
+}
+
+.fileInput {
+    position: absolute;
+    left: -9999px;
+}
+
+.formSpan,
+.attachSpan {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0;
+    margin-right: 7px;
+    letter-spacing: 1px;
+    color: var(--text-white-color);
+    font-size: 20px;
+}
+
+.emphasis::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, rgba(168, 239, 255, 0.1) 0%, rgba(168, 239, 255, 1) 49.98%, rgba(168, 239, 255, 0.1) 99.88%);
+}
+
+.attachSpan {
+    color: var(--text-blue-color);
+}
+
+.attach {
+    stroke: var(--text-blue-color);
+}
+
+
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: '<percentage>';
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: '<percentage>';
+  initial-value: 0%;
+  inherits: true;
+}
+
+
+:root {
+	--d: 2500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: rgba(168, 239, 255, 1);
+	--c2: rgba(168, 239, 255, 0.1);
+     
+}
+.btn {
+    height: 70px;
+}
+
+.btn .buttonSpan {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    text-decoration: none;
+    overflow: hidden;
+    color: var(--text-white-color);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--my-font-family);
+    letter-spacing: 2px;
+    z-index: 1;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px -130px 28px -96px rgba(0, 0, 0, 0.82), -3px 128px 27px -96px rgba(0, 0, 0, 0.82);
+}
+
+.btn .buttonSpan::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(45deg) translate(0);
+    transition: 0.5s;
+    filter: blur(0px);
+}
+
+.btn:hover .buttonSpan::before {
+    transform: scaleX(45deg) translate(200px);
+}
+
+.btn .buttonSpan::before {
+    transition: 5000ms;
+}
+
+
+.btn .buttonSpan:hover {
+    letter-spacing: 3px;
+    box-shadow: 0 0 5px rgba(168, 239, 255, 1), 0 0 5px rgba(168, 239, 255, 0.1), 0 0 10px rgba(168, 239, 255, 1), 0 0 20px rgba(168, 239, 255, 0.1);
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	min-width: min(40rem, 100%);
+    cursor: pointer;
+    /* margin-top: 60px; */
+}
+
+.box {
+	font-size: 3vw;
+	border: 0.35rem solid;
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+	animation: borderRotate var(--d) linear infinite forwards;
+}
+
+.box:nth-child(2) {
+	border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
+	animation: borderRadial var(--d) linear infinite forwards;
+}
+
+@keyframes borderRotate {
+	100% {
+		--angle: 420deg;
+	}
+}
+
+@keyframes borderRadial {
+	20% {
+		--gradX: 100%;
+		--gradY: 50%;
+	}
+	40% {
+		--gradX: 100%;
+		--gradY: 100%;
+	}
+	60% {
+		--gradX: 50%;
+		--gradY: 100%;
+	}
+	80% {
+		--gradX: 0%;
+		--gradY: 50%;
+	}
+	100% {
+		--gradX: 50%;
+		--gradY: 0%;
+	}
+}

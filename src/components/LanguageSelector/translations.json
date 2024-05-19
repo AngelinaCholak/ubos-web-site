@@ -14,7 +14,8 @@
     "LandingPage": "Landing page",
     "TemplateWebsite": "Template website",
     "TemplateECommerce": "Template E-commerce",
-    "MobileApplications":"Mobile applications"
+    "MobileApplications":"Mobile applications",
+    "ButtonDiscuss":"Discuss the project"
   },
 
   "ukrainian": {
@@ -31,7 +32,8 @@
     "LandingPage": "Посадкова сторінка",
     "TemplateWebsite": "Шаблонний корпоративний сайт",
     "TemplateECommerce": "Шаблонний інтернет-магазин",
-    "MobileApplications": "Мобільні додатки"
+    "MobileApplications": "Мобільні додатки",
+    "ButtonDiscuss": "Обговорити проект"
   },
   "russian": {
     "welcomeMessage": "Добро пожаловать на наш веб-сайт!",
@@ -47,6 +49,7 @@
     "LandingPage": "Целевая страница",
     "TemplateWebsite": "Шаблонный корпоративный сайт",
     "TemplateECommerce": "Шаблонный интернет-магазин",
-    "MobileApplications": "Мобильные приложения"
+    "MobileApplications": "Мобильные приложения",
+    "ButtonDiscuss": "Обсудить проект"
   }
 }

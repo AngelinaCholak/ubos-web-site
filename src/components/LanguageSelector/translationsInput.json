@@ -1,0 +1,24 @@
+{
+  "english": {
+    "placeholderName": "Your name*",
+    "placeholderTel": "Your phone number*",
+    "placeholderEmail": "Your Email*",
+    "inputFile": "There is a specification?",
+    "attachFile":"Attach a file",
+    "buttonForm":"SEND"
+  },
+  "ukrainian": {
+    "placeholderName": "Ваше Ім'я*",
+    "placeholderTel": "Ваш телефон*",
+    "placeholderEmail": "Ваш E-mail*",
+    "inputFile": "Є технічне завдання?",
+    "buttonForm": "НАДІСЛАТИ"
+  },
+  "russian": {
+    "placeholderName": "Ваше Имя*",
+    "placeholderTel": "Ваш Телефон*",
+    "placeholderEmail": "Ваш E-mail*",
+    "inputFile": "Есть техническое задание? ",
+    "buttonForm": "ОТПРАВИТЬ"
+  }
+}
