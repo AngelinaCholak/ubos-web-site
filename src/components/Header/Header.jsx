@@ -23,7 +23,7 @@ const Header = () => {
         y: 0,
       },
       {
-        y: -200, 
+        y: -200,
         duration: 0.3,
         ease: 'power4.elastic', // Функція плавності анімації
         scrollTrigger: {

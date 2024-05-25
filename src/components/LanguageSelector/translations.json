@@ -15,7 +15,8 @@
     "TemplateWebsite": "Template website",
     "TemplateECommerce": "Template E-commerce",
     "MobileApplications":"Mobile applications",
-    "ButtonDiscuss":"Discuss the project"
+    "ButtonDiscuss":"Discuss the project",
+    "ButtonTop":"Up"
   },
 
   "ukrainian": {
@@ -33,7 +34,8 @@
     "TemplateWebsite": "Шаблонний корпоративний сайт",
     "TemplateECommerce": "Шаблонний інтернет-магазин",
     "MobileApplications": "Мобільні додатки",
-    "ButtonDiscuss": "Обговорити проект"
+    "ButtonDiscuss": "Обговорити проект",
+    "ButtonTop": "Вгору"
   },
   "russian": {
     "welcomeMessage": "Добро пожаловать на наш веб-сайт!",
@@ -50,6 +52,7 @@
     "TemplateWebsite": "Шаблонный корпоративный сайт",
     "TemplateECommerce": "Шаблонный интернет-магазин",
     "MobileApplications": "Мобильные приложения",
-    "ButtonDiscuss": "Обсудить проект"
+    "ButtonDiscuss": "Обсудить проект",
+    "ButtonTop":"Вверх"
   }
 }
