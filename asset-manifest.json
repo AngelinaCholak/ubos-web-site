@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/ubos-web-site/static/css/main.bbe4a641.css",
-    "main.js": "/ubos-web-site/static/js/main.1d242626.js",
+    "main.css": "/ubos-web-site/static/css/main.8731ae86.css",
+    "main.js": "/ubos-web-site/static/js/main.47474c4b.js",
     "static/media/mainLeft.png": "/ubos-web-site/static/media/mainLeft.6570b024d144bf3741e0.png",
+    "static/media/AnimationShow2.png": "/ubos-web-site/static/media/AnimationShow2.4fd3df5e1734a8c65a3f.png",
+    "static/media/AnimationShow1.png": "/ubos-web-site/static/media/AnimationShow1.1f9b93d56d7ebf5cce92.png",
+    "static/media/AnimationShow3.png": "/ubos-web-site/static/media/AnimationShow3.5f65ceccc97c04da2e0a.png",
     "static/media/mainRight.png": "/ubos-web-site/static/media/mainRight.d695b2b5d1577898818a.png",
+    "static/media/AnimationShow4.png": "/ubos-web-site/static/media/AnimationShow4.95df0d657fc6e0cea38d.png",
     "static/media/hero2.png": "/ubos-web-site/static/media/hero2.95b2f40e9a9eb96c4551.png",
-    "static/media/fone3.jpg": "/ubos-web-site/static/media/fone3.e3fcb0c7d03e998a4598.jpg",
-    "static/media/fone2.jpg": "/ubos-web-site/static/media/fone2.8eb5b0b8496bac08e9db.jpg",
-    "static/media/sprite.svg": "/ubos-web-site/static/media/sprite.c2cbc71f1012d916f00af4e5c8b01bef.svg",
+    "static/media/CertificateCholak.jpg": "/ubos-web-site/static/media/CertificateCholak.bdeffa65396ea88af42e.jpg",
+    "static/media/CertificateCholak1.JPG": "/ubos-web-site/static/media/CertificateCholak1.979a66e4fab4326b6398.JPG",
+    "static/media/sprite.svg": "/ubos-web-site/static/media/sprite.ea718affdc751703f0f4d821331f29f6.svg",
     "index.html": "/ubos-web-site/index.html",
-    "main.bbe4a641.css.map": "/ubos-web-site/static/css/main.bbe4a641.css.map",
-    "main.1d242626.js.map": "/ubos-web-site/static/js/main.1d242626.js.map"
+    "main.8731ae86.css.map": "/ubos-web-site/static/css/main.8731ae86.css.map",
+    "main.47474c4b.js.map": "/ubos-web-site/static/js/main.47474c4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbe4a641.css",
-    "static/js/main.1d242626.js"
+    "static/css/main.8731ae86.css",
+    "static/js/main.47474c4b.js"
   ]
 }
